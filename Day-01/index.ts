@@ -1,15 +1,17 @@
-    for (let i = 1; i <=100; i++) {
+    
+    
+    for (let num = 1; num <=100; num++) {
         
-        if(i%3==0 && i%5==0){
+        if(num%3==0 && num%5==0){
             console.log("FizzBuzz");
         }
-        else if (i%3==0){
+        else if (num%3==0){
             console.log("Fizz");
         }
-        else if(i%5==0){
+        else if(num%5==0){
             console.log("Buzz");
         }
         else{
-            console.log(i);
+            console.log(num);
         }
     }
